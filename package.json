@@ -1,0 +1,11 @@
+{
+  "name": "ebay-dev-api",
+  "version": "1.0.0",
+  "description": "Interface to the eBay developer api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eacraft13",
+  "license": "ISC"
+}
