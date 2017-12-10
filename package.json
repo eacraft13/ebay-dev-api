@@ -9,6 +9,7 @@
   "author": "eacraft13",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.19.3",
     "request": "^2.83.0"
   }
 }
