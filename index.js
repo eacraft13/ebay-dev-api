@@ -1,7 +1,8 @@
-module.exports = (function () {
+module.exports = function (credentials) {
     'use strict';
 
-    var api = {};
-
-    return api;
-})();
+    return {
+        finding: require('./lib/searching/finding')(credentials),
+        shopping: require('./lib/traditional_buying/shopping')(credentials)
+    };
+};
