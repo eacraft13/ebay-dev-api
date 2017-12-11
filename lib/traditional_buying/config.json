@@ -1,0 +1,8 @@
+{
+    "uri": "http://open.api.ebay.com/shopping",
+    "params": {
+        "responseencoding": "JSON",
+        "siteid": "0",
+        "version": "967"
+    }
+}
