@@ -1,5 +1,6 @@
+'use strict';
+
 (function () {
-    'use strict';
 
     var credentials = { appId: 'Your-App-Id' },
         ebay = require('ebay-dev-api')(credentials);
@@ -38,4 +39,4 @@
         console.log(err);
         process.exit(1);
     });
-})();
+}());
